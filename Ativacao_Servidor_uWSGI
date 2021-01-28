@@ -1,0 +1,5 @@
+# Ativacao Servidor Notebook
+uwsgi --socket 127.0.0.1:8080 --wsgi-file piabanha_prod.py --callable app --protocol http --processes 4 --threads 2 --stats 127.0.0.1:9191
+# Ativacao Servidor AWS EC2
+uwsgi --socket 192.168.1.55:8080 --wsgi-file piabanha_prod.py --callable app --protocol http --processes 4 --threads 2 --stats 192.168.1.55:9191
+

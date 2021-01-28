@@ -1,0 +1,1 @@
+postgresql+psycopg2://postgres:popstgres@localhost:5432/odm_piabanha
